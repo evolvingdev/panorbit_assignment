@@ -1,0 +1,50 @@
+.card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 750px;
+  height: 600px;
+  border-radius: 23px;
+  background-color: #f8fafc;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.headingText {
+  height: 133px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headingText h2 {
+  color: #404040;
+}
+.accountsList {
+  width: 750px;
+  height: 500px;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+.userRecord {
+  display: flex;
+  align-items: center;
+  width: auto;
+  cursor: pointer;
+  margin-left: 5%;
+}
+.line {
+  width: calc(100% - 50px);
+  border: 0.5px solid lightgray;
+  margin: 10px 20px;
+  opacity: 0.5;
+}
+.username {
+  text-align: left;
+  width: 25%;
+  margin-left: 5%;
+  font-size: 18px;
+  color: #0f172a;
+}
